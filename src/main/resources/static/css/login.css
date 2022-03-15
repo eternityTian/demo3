@@ -1,0 +1,54 @@
+#logo {
+
+    border-radius: 15px;
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+
+}
+
+.sign{
+    left: 23%;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+#username,#password{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+#submit{
+    margin-top: 10px;
+    margin-left: 22%;
+    border-radius: 10px;
+}
+
+#login{
+    position: absolute;
+    left: 22%;
+}
+
+#username,#password,#submit{
+    border-width: 1px;
+    padding: 0px 10px;
+    background: transparent;
+}
+
+#register{
+    border-width: 0px;
+    padding: 0px 10px;
+    background: transparent;
+    font-size: 2px;
+}
+
+body{
+    background: url(../img/bkg.jpg) repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center 0;
+}

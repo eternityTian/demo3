@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>心语注册</title>
+		<link rel="stylesheet" href="css/regist.css">
+	</head>
+	<body>
+		<div class="main">
+			<div id="logo">
+				<div class="sing">
+					<p class="sign">LOGO</p>
+					<p class="sign">欢迎注册</p>
+				</div>
+				<form id="content" action="index.html" @submit="submitForm" method="post">
+					<input id="username" type="text" v-model="username" placeholder="用户名" />
+					<input id="password" type="password" v-model="password" placeholder="密码" />
+					<input id="phone_num" type="text" placeholder="电话" v-model="phone_num"/>
+					<input id="email" type="email" placeholder="邮箱" v-model="email" />
+					<input id="submit" type="submit" value="立即注册">
+				</form>
+			</div>
+		</div>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+		<script src="js/axiosTest.js"></script>
+	</body>
+
+</html>

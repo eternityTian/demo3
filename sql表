@@ -1,0 +1,13 @@
+CREATE TABLE `my_login`  (
+  `id` int(0) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '账 号',
+  `password` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '密 码',
+  `phone_num` char(15) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '电话',
+  `email` char(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '邮箱',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '用户' ROW_FORMAT = Dynamic;
+
+INSERT INTO `my_login` VALUES (5, 'tian', '2002', '12211114541', '1605292886@qq.com');
+INSERT INTO `my_login` VALUES (6, 'admin', '1223', 'sda', 'adsd@q3.wd');
+INSERT INTO `my_login` VALUES (7, 'asd', 'da', 'sda', 'asdasd@ds');
+INSERT INTO `my_login` VALUES (8, 'asda', 'ew', 'qwqe', 'dsa@ew');
